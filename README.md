@@ -299,19 +299,19 @@ Building the program with BLAS support may lead to some performance improvements
     cmake --build . --config Release
     ```
 
-- clBLAS
+- CLBlast
 
   This provides BLAS acceleration using the CUDA cores of your GPU. Make sure to have the clblast installed.
   - Using `make`:
     ```bash
-    make LLAMA_CLBLAS=1
+    make LLAMA_CLBLAST=1
     ```
   - Using `CMake`:
 
     ```bash
     mkdir build
     cd build
-    cmake .. -DLLAMA_CLBLAS=ON
+    cmake .. -DLLAMA_CLBLAST=ON
     cmake --build . --config Release
     ```
 
