@@ -299,7 +299,7 @@ Building the program with BLAS support may lead to some performance improvements
     cmake --build . --config Release
     ```
 
-- clBLAS
+- CLBlast
 
   This provides BLAS acceleration using the CUDA cores of your GPU. Make sure to have the clblast installed.
   - Using `make`:
